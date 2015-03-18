@@ -1,0 +1,11 @@
+#delivery_info_ddelivery_all a{display: none;}
+.modal { background: #eee; width: 1000px; margin: 0px auto; border: 3px solid #666; padding: 0px; }
+.modal .close { float: right; text-decoration: none; font-size: 40px; cursor: pointer; }
+.themodal-lock { overflow: hidden; }
+.themodal-overlay { position: fixed; bottom: 0; left: 0; top: 0;right: 0; z-index: 100; overflow: auto;
+                          -webkit-overflow-scrolling: touch; }
+.themodal-overlay > * { -webkit-transform: translateZ(0px); }
+.themodal-overlay { background: rgba(0, 0, 0, 0.5); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = #7F000000, endColorstr = #7F000000); zoom: 1; z-index:9999; }
+#ddelivery a{ color: #12a9e1; font-size: 16px; }
+a.exclusive { width:100%;min-width:100px;text-align:center; }
+#ddelivery_popup{ overflow:hidden;}
